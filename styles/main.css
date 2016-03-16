@@ -1,0 +1,21 @@
+
+button{
+	height: 5em; 
+	width: 15em;
+	margin: 0 0;
+}
+.tabData{
+  border: 1px solid black;
+  margin-top: 0;
+  margin-right: 5em;
+  
+}
+.red.rdata{
+	display: none;
+}
+.blue.bdata{
+	display: none;
+}
+.green.gdata{
+	display: none;
+}
