@@ -4,7 +4,7 @@ button{
 	width: 15em;
 	margin: 0 0;
 }
-.tabData{
+.red{
   border: 1px solid black;
   margin-top: 0;
   margin-right: 5em;
@@ -13,8 +13,18 @@ button{
 .rdata{
 	display: none;
 }
+.blue{
+  border: 1px solid black;
+  margin-top: 0;
+  margin-right: 5em;
+}
 .bdata{
 	display: none;
+}
+.green{
+  border: 1px solid black;
+  margin-top: 0;
+  margin-right: 5em;
 }
 .gdata{
 	display: none;
