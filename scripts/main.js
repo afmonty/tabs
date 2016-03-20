@@ -7,15 +7,27 @@ var gDisplay = document.querySelector(".gdata");
 var bDisplay = document.querySelector(".bdata");
 
 red.addEventListener("click", function(){
-    rDisplay.style.display == 'block';
+    if(rDisplay.style.display = "none"){
+      rDisplay.style.display = 'block';
+      bDisplay.style.display = 'none';
+      gDisplay.style.display = 'none';
+    }
 });
 
 blue.addEventListener("click", function(){
-    bDisplay.style.display = 'block';
+    if(bDisplay.style.display = "none"){
+      bDisplay.style.display = 'block';
+      rDisplay.style.display = 'none';
+      gDisplay.style.display = 'none';
+  }
 });
 
 green.addEventListener("click", function(){
-    gDisplay.style.display = "block";
+    if(gDisplay.style.display = "none"){
+      gDisplay.style.display = 'block';
+      bDisplay.style.display = 'none';
+      rDisplay.style.display = 'none';
+  }
 });
 
 
